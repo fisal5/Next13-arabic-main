@@ -147,7 +147,7 @@ import RestartButton from '../components/restartButton';
            onClick={() => onAnswerSelected(answer, id)}
            className={`${
             checked && answer.id === correctAnswer.id
-              ? 'border-4 border-solid border-green-500' // Green border for the correct answer
+              ? 'border-4 border-solid border-green-500 pointer-events-none' // Green border for the correct answer
               : selectedAnswerIndex === false
               ? 'hover:scale-105'
               : 'opacity-50 pointer-events-none'
