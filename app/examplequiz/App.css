@@ -1,7 +1,7 @@
 .App{
     text-align: center;
     width: 100vw;
-    //height: 100%;
+    /* height: 100%; */
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
@@ -11,26 +11,26 @@
 .Pictures {
     margin: 10px;
     display: flex;
-    //height: 100%;
+    /*height: 100%; */
     justify-content: flex-start;
     flex-direction: column;
-    //flex-wrap: nowrap;
+    /*flex-wrap: nowrap; */
     touch-action: none; 
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     user-select: none; /* For other browsers */
-    touch-callout: none; /* For other browsers */
+   /* touch-callout: none;  For other browsers */
 }
 .img {
     margin: 5px;
     height: 70px;
-    //-webkit-user-select: none;
-    //-webkit-touch-callout: none;
-    //user-select: none; /* For other browsers */
-    //touch-callout: none; /* For other browsers */
-    //user-select: none; /* Prevents text selection on touch */
-    //-webkit-user-drag: none; /* Prevents the default image drag behavior */
-    //touch-action: none; /* Prevents built-in touch gestures */
+    /*-webkit-user-select: none;
+    -webkit-touch-callout: none;
+    user-select: none; /* For other browsers 
+    touch-callout: none; /* For other browsers 
+    user-select: none; /* Prevents text selection on touch 
+    -webkit-user-drag: none; /* Prevents the default image drag behavior 
+    touch-action: none; /* Prevents built-in touch gestures */
 }
 
 .Picture {
@@ -42,7 +42,7 @@
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     user-select: none; /* For other browsers */
-    touch-callout: none; /* For other browsers */
+    /*touch-callout: none; /* For other browsers */
   }
 
 .board { width: 100px;
@@ -51,7 +51,7 @@
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     user-select: none; /* For other browsers */
-    touch-callout: none; /* For other browsers */
+   /* touch-callout: none;  For other browsers */
 
 }
 
@@ -61,7 +61,7 @@
     height: 500px;
     border: 2px solid black;
     display: flex;
-    //align-items:strech;
+    /*align-items:strech; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -69,7 +69,7 @@
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     user-select: none; /* For other browsers */
-    touch-callout: none; /* For other browsers */
+    /*touch-callout: none;  For other browsers */
 
 }
 

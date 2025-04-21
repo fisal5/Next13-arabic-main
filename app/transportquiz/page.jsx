@@ -51,7 +51,7 @@ import RestartButton from '../components/restartButton';
       
       } else{
       setSelectedAnswer(false);
-      console.log('false');
+      //console.log('false');
       }
   };
   // Calculate score and increment to next question 
@@ -71,13 +71,14 @@ import RestartButton from '../components/restartButton';
 
         }
     );
-    if (activeQuestion != '4') {
+    if (activeQuestion != 4 ) {
       setActiveQuestion((prev) => prev +1);
     } else{
       setActiveQuestion(0);
       setShowResult(true);
     }
     setChecked(false);
+    console.log(activeQuestion);
   };
 
       
@@ -160,7 +161,7 @@ import RestartButton from '../components/restartButton';
         {renderAnswerSymbol()}
         {checked ? (<div className="flex items-center justify-center h-24"> 
           <button onClick={nextQuestion} className="bg-blue-500 hover:bg-green-700 text-white font-bold py-4 px-10 rounded"> 
-           {activeQuestion == '4' ? 'Finish': 'Next'}
+           {activeQuestion == 4 ? 'Finish': 'Next'}
           </button>
          </div>
         
